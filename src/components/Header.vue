@@ -1,14 +1,18 @@
 <template>
-    <div class="header-container flex-center">
-        <div class="left-icon"></div>
-        <div class="logo"></div>
-        <div class="search-box">
-            <i class="search-icon"></i>
-            Header
+    <van-sticky>
+        <div class="header-container flex-center">
+            <div class="left-icon"></div>
+            <div class="logo"></div>
+            <div class="search-box">
+                <i class="search-icon"></i>
+                Header
             <!-- <input type="text" placeholder="请输入"> -->
+            </div>
+            <div class="right-message"></div>
         </div>
-        <div class="right-message"></div>
-    </div>
+
+    </van-sticky>
+
 </template>
 
 <script lang="ts" setup>

@@ -1,7 +1,9 @@
 <script lang="ts" setup>
     import { onMounted } from 'vue'
     // import { useCounterStore } from '@/stores/counter'
-    import testAxios from '@/views/test-axios.vue'
+    // import testAxios from '@/views/test-axios.vue'
+    import List from '@/components/List.vue'
+
 
     // const counter = useCounterStore()
 
@@ -32,11 +34,11 @@
             </div>
         </div>
         <div class="title-box"></div>
-        <!-- MessageList -->
+        <List></List>
 
     </div>
     <!-- <div @click="counter.increment()">累加器{{ counter.count }}</div> -->
-    <test-axios></test-axios>
+    <!-- <test-axios></test-axios> -->
 </template>
 
 <style scoped>
